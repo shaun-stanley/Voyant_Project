@@ -1,0 +1,17 @@
+---
+title: "Voyant"
+author: "Shaun Stanley"
+date: "20/09/2021"
+output: html_document
+---
+
+# About the Group
+
+Team leader: Samridhi Hooda
+Team members: Samridhi Hooda, Shaun Stanley, Ariyamala Sivakumar
+
+
+
+
+
+
