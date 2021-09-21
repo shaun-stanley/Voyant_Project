@@ -4,7 +4,6 @@
 
 This is my first project in R.
 
-<<<<<<< HEAD
 I would like to make an unordered list:
 
 - Item 1
