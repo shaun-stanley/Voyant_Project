@@ -5,12 +5,66 @@ date: "20/09/2021"
 output: html_document
 ---
 
-# About the Group
+## About the Group
 
 Team leader: Samridhi Hooda
+
 Team members: Samridhi Hooda, Shaun Stanley, Ariyamala Sivakumar
 
-# Research Hypothesis
+## Research Hypothesis
+
+*William Thackery’s work discusses the upper and middle class more than Dickens' work, which focuses on the working class.*
+
+## Corpus Description
+
+The corpus created is a combination of 11 works each by William Thackery and Charles Dickens, written between 1835 - 1860. We chose to compare Dickens’ texts to Thackery, who was his public literary rival. We specifically chose this time period because there is a fairly equal representation of both authors, allowing us to fairly analyze the way they approach the difference in classes in England during this period. This time period also ensures that both authors have their most popular works included alongside a few lesser-known works. This time period also allowed us to explore class relations during the Industrial Revolution, which was a theme in both authors' works. 
+
+# Corpus Summary
+
+Our corpus is quite extensive, with more than 4 million words. In relation to the document lengths, both Dickens and Thackery have quite a few longer novels, however, all the shortest works are by Thackery. Along with this, the texts with the highest vocabulary density are all Thackery novels, and the Dickens novels lie at the other end of the spectrum. The same also holds true for the average number of words per sentence. This indicates that Thackery’s work used more complicated language, as compared to Dickens' work. For both authors, the most frequently occurring distinct words in their texts are character names, which seems to be common when analysing most novels. These numbers can help provide insights into which character is the main character, by assessing which name occurs the most frequently.
+
+## Frequency Comparison
+
+When having a look at the broad word frequency comparison between Dickens and Thackery, we find interesting results. Thackeray has a much higher frequency of words like ‘lord’, ‘gentleman’, ‘colonel’, ‘captain’, ‘money’— all words that denote text discussing the upper-class. However, when we have a look at the frequency tool for Dickens’ corpus, we find a similar result— words that represent the upper class appear frequently. Words such as ‘sir’, ‘lady’, ‘gentleman’, ‘money’, ‘master’ are just as common. Although this does not necessarily mean that Dickens’ work did not focus on the working class (as it is possible that the members of this class used these words to address those of a higher class while the focus was on them), it is definitely in stark comparison to Thackery’s  overwhelmingly obvious focus on upper classes. 
+
+What is also incredibly interesting is the fact that the word ‘poor’ occurs frequently in the works of both writers. Surprisingly, Thackery’s corpus has a frequency of 2722 for ‘poor*’, but Dickens’ corpus has only 1825 occurrences. This shows us the importance of context in any given sentence, as although all words are treated equally by Voyant; it could still mean that the upper class individuals are speaking about people below them and referring to them as ‘poor’ in Thackery’s writings, or using the word poor in a non-economic context, whereas one could be describing their own condition as ‘poor’ in that of Dickens’.
+
+While drilling down on the word ‘poor’, a word that frequently occurs in the corpuses of both the writers, our findings are surprising. The relative frequency of the word starts out high in Dickens’ corpus, but ends at about 30% lower than the  start (based on dates of publishing). While analyzing Thackery’s corpus, we find the opposite— although the frequency starts high, it takes a huge dip only to then rise in his later works, ending at 3 times the magnitude of the dip. So far, we cannot connect the dots to understand why this happens, as Dickens is supposed to be writing about the working class and Thackery about the upper.
+
+Another interesting occurrence is the relative frequency of the word ‘lord.’ Dickens’ corpus rises abruptly only to fall in its early stages and ends much lower than its peak in the beginning, Thackeray’s corpus shows the inverse— it starts low and rises gradually, only to rise abruptly towards the end of the corpus and fall again. We see a similar result for the term ‘aristocrat*’— the relative frequency starts off low only to peak towards the end in Dickens’ corpus, whereas it starts off high and then falls abruptly in that of Thackery’s. These inverse charts may suggest a change in their writings with time, however that cannot be concluded on the basis of this metric alone.
+
+
+## Collocation and Correlation
+
+The collocates depicts terms and their proximity to other terms throughout texts. Understanding the proximity of words within our chosen authors allows us to define how these terms were used, providing some insight into the frequency and context. An example of this is how the term Lady is often used to refer to Lady Castlewood, a character in a Thackery novel. First, since the term appears in conjunction with a name allows us to rule out the possibility of undefinable connotations like satire. Looking at the collocates also allows us to ascertain the importance of a character and thereby the relevance of their class in the tale. A novel with a high frequency of collocations of Lady and a name is unlikely to accurately represent the lower classes. A novel with the collocates of lodge being old immediately sets a very different tone and representation of the lower classes. Understanding the term along with the frequency allows us to accurately determine the use of this data in our claims.
+
+
+To depict the change in class structures and the approaches to the same, we compared common terms like lady, lord, butler and aristocrat to gain a fair representation of individuals belonging to the upper class and terms like labour, factory, lodge and shabby to describe the lower class. Dickens has a high ratio of references to the richer classes vis a vis references to the lower class, in an approximately 15:2 ratio. Thackeray, on the other hand, has an even higher ratio of references to the rich versus the poor, in an approximately 14:1 ratio. With an almost doubled difference in references to the rich, Dickens' work clearly leans towards the lower class whereas Thackery’s work relies on the upper and middle class. The collocates also show us the authors’ approaches to classes. Dickens uses more positive terms in collocation with words like lodge, whereas Thackery used these terms in passing and in reference to places, but rarely as an eventful location itself. This does provide a positive understanding of our hypotheses. However, the correlations provide a different story. The correlations are extremely weak and not significant. Without the correlations, it might be easy to conclude that our hypothesis was correct. However, the numerical interpretation of correlations offers another story, one that conclusively proves our hypothesis as false.
+
+## Third tool: Bubble Lines 
+
+The third tool we chose to use was the bubble lines tool. The tool allows for the easy representation of the frequency of words in different texts, and also allows for differentiation between books that have a lot more occurrences of certain words vs others. It represents the same using differently coloured and sized bubbles. We chose it as it allowed for an assessment of which economic classes the authors discussed more and created an easy to understand visualisation of the same. To make the visual clearer, we chose only five books by each author. Thus, by using certain keywords as indicators of wealth or poverty, it allowed us to determine which economic class did the authors write about more. We chose keywords for the same keeping in mind how they functioned as indicators of class – for example, Lord and Lady are titles and are thus used to refer to someone who would be a member of the upper class only. We then create two groups of words to represent the upper/middle class and the working class. The words used for the upper class include Lord, Lady, aristocrat and butler (as only the rich would have a butler). The words used for the working class include labour, lodg* (for lodgers and lodging), shabby and factory. Shabby is frequently used as a descriptor for the poor, while factories functioned as the workplace for many of the working class.
+
+<iframe style='width: 1366px; height: 600px;' src='https://voyant-tools.org/tool/Bubblelines/?query=factory*&query=labour*&query=shabby&query=lodg*&docId=a9efa07a62abd9513b8bdc2b7881ce6f&docId=ead91a64bf3c484da71072ecf0bd7aae&docId=d175dc9536aa3e4de0a8d1968becb6d3&docId=86cf145a8a22a4fd3f15921b4c03d517&docId=1fcd03165163862dea93dffeaccf6817&docId=399c9a4c58c29f56ba3eb5aebd92f76a&docId=139ebf0737e5e6ed9d548ab2804af440&docId=371be168ac6e7a7235e9433e064dce0e&docId=023679e08a3f35acdf2d46ed6c954163&docId=485691836ce5755178e323e9b8998b4a&corpus=043dab63acf80fe8c1bd710d1e3d05f7' data-external = '1' ></iframe>
+
+Thackery’s work seems to have an overwhelming number of words for the upper class, indicating that he primarily wrote about them. The visual shows considerable clustering of these words in the Thackery novels, with larger bubbles. However, these words still frequently occur in the Dickens novels (perhaps because of the ubiquitousness of the terms lord and lady). When it comes to the words for the working class, however, they aren’t commonly occurring in any of the novels. Interestingly, they still appear more frequently in the Thackery novels rather than the Dickens novels. This is interesting because this indicates that while Thackery does write more about the upper class, Dickens words choice (at least using these four words as indicators) does not indicate his tendency to write about the working classes. There are clear limitations with this, primarily related to word selection - it is likely that identifying the words that Dickens used to describe the poor would only be possible by reading his books and understanding the context he used certain words in. Along with this, as demonstrated earlier in this paper, the vocabulary density and average words per sentence in Dickens’ novels is considerably lower than Thackery’s work, indicating that there's a higher probability of the chosen words appearing a fewer number of times in his work. 
+
+## Conclusion 
+
+The industrial period represents a time of change which was reflected in the changing class relations of that time. While our research has demonstrated clearly how Thackery’s work represents the upper class more, it has not been able to do the same for Dickens’ work as clearly. Issues with understanding the exact context of words has played a significant role in the same. With regard to the bubble lines tool, while it demonstrated that Thackery does have more mentions of terms used by the upper classes, it could not demonstrate the opposite for Dickens clearly. Along with that, the relative common use of words such as Lord and Lady, made these words commonly occurring in Dickens' work too. In a similar manner, the hypothesis was true for an inference derived from the collocatres but it was conclusively proven false by the correlations. 
+
+## Reflections
+
+While Voyant allowed for easy text mining, and a broad overview of the texts, there remained issues with both using Voyant, as well as the process of corpus creation. 
+
+With regard to corpus creation, the main issue was how to choose two authors that could be compared appropriately. We chose Thackery and Dickens as they wrote during the same period, and were regarded as rivals, however, this does not account for two different writing styles, and there is no way for Voyant to account for the same too. Similarly, both authors were at different parts of their writing journey - comparing a peak novel to a debut novel and determining the implications of the same can be dangerous in how we assess variance in the same. This was an issue when it came to the use of our third tool, as it is likely the lower count for certain words in Dickens novels could have been a product of his writing style. 
+
+Second, when it came to word selection to assess which classes the authors wrote about more, choosing one or two representative words can be difficult, making it necessary to choose a vast variety of words. 
+
+Third, while Voyant provides accurate information about the texts, it cannot provide information on the context the word is used in or the sentiments associated with this context beyond collocates. In particular, we think satire and sarcasm would not come through very clearly because the entire sentence and context of the text becomes important in these cases. While the collocates give us some understanding into their relationship with other words, we have no indication of relative frequency. Thirty references of Lady to Margery might be more valuable data if we knew a relative number that would help us determine the significance of this collocate. 
+
+While computers can be great tools to analyze the numerical values and occurrences of certain strings/characters through several iterations, the ability to interpret, infer and connect seems to be exclusive to humans (at least for now). Thus, while Voyant was a valuable tool when it came to getting an overview of the texts, there were still issues with getting a complete picture of the corpus and the context of the same.
+
 
 
 
