@@ -27,7 +27,7 @@ Our corpus is quite extensive, with more than 4 million words. In relation to th
 
 When having a look at the broad word frequency comparison between Dickens and Thackery, we find interesting results. Thackeray has a much higher frequency of words like ‘lord’, ‘gentleman’, ‘colonel’, ‘captain’, ‘money’— all words that denote text discussing the upper-class. 
 
-<iframe style='width: 424px; height: 358px;' src='https://voyant-tools.org/tool/Trends/?query=captain&query=gentleman&query=lord&query=money&query=colonel&corpus=43042bfea10fd84465a3cd8230aa6b47' data-external= '1'></iframe>
+<iframe style='width: 700px; height: 400px;' src='https://voyant-tools.org/tool/Trends/?query=captain&query=gentleman&query=lord&query=money&query=colonel&corpus=43042bfea10fd84465a3cd8230aa6b47' data-external= '1'></iframe>
 
 However, when we have a look at the frequency tool for Dickens’ corpus, we find a similar result— words that represent the upper class appear frequently. Words such as ‘sir’, ‘lady’, ‘gentleman’, ‘money’, ‘master’ are just as common. Although this does not necessarily mean that Dickens’ work did not focus on the working class (as it is possible that the members of this class used these words to address those of a higher class while the focus was on them), it is definitely in stark comparison to Thackery’s  overwhelmingly obvious focus on upper classes. 
 
