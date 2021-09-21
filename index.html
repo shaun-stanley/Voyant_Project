@@ -221,11 +221,11 @@ pre code {
 <p>While drilling down on the word ‘poor’, a word that frequently occurs in the corpuses of both the writers, our findings are surprising. The relative frequency of the word starts out high in Dickens’ corpus, but ends at about 30% lower than the start (based on dates of publishing). While analyzing Thackery’s corpus, we find the opposite— although the frequency starts high, it takes a huge dip only to then rise in his later works, ending at 3 times the magnitude of the dip. So far, we cannot connect the dots to understand why this happens, as Dickens is supposed to be writing about the working class and Thackery about the upper.</p>
 
 
-<caption><i>Graph 4: Frequency of the word 'poor' in Dickens' work</i></caption>
+<caption><i>Graph 5: Frequency of the word 'poor' in Dickens' work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/Trends/?query=poor&corpus=9894efa477941cbe4edc291c5dcb6ba1' data-external='1'></iframe>
 
 
-<caption><i>Graph 5: Frequency of the word 'colonel' in Thackery's work</i></caption>
+<caption><i>Graph 6: Frequency of the word 'colonel' in Thackery's work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/Trends/?query=colonel&corpus=43042bfea10fd84465a3cd8230aa6b47' data-external='1'></iframe>
 
 <p>Another interesting occurrence is the relative frequency of the word ‘lord.’ Dickens’ corpus rises abruptly only to fall in its early stages and ends much lower than its peak in the beginning, Thackeray’s corpus shows the inverse— it starts low and rises gradually, only to rise abruptly towards the end of the corpus and fall again. We see a similar result for the term ‘aristocrat*’— the relative frequency starts off low only to peak towards the end in Dickens’ corpus, whereas it starts off high and then falls abruptly in that of Thackery’s. These inverse charts may suggest a change in their writings with time, however that cannot be concluded on the basis of this metric alone.</p>
@@ -235,22 +235,25 @@ pre code {
 <p>The collocates depicts terms and their proximity to other terms throughout texts. Understanding the proximity of words within our chosen authors allows us to define how these terms were used, providing some insight into the frequency and context. An example of this is how the term Lady is often used to refer to Lady Castlewood, a character in a Thackery novel. First, since the term appears in conjunction with a name allows us to rule out the possibility of undefinable connotations like satire. Looking at the collocates also allows us to ascertain the importance of a character and thereby the relevance of their class in the tale. A novel with a high frequency of collocations of Lady and a name is unlikely to accurately represent the lower classes. A novel with the collocates of lodge being old immediately sets a very different tone and representation of the lower classes. Understanding the term along with the frequency allows us to accurately determine the use of this data in our claims.</p>
 
 
-<figure>
-    <figcaption></figcaption>
-</figure>
-<iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/CorpusCollocates/?query=aristo*&query=butler*&query=lord*&query=lady*&corpus=4304628568afdb368f88e29eff15ac16' data-external = '1'></iframe
+<caption><i>Graph 7: Collocates for words representing the Upper Class in Dickens' work</i></caption>
+<iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/CorpusCollocates/?query=aristo*&query=butler*&query=lord*&query=lady*&corpus=4304628568afdb368f88e29eff15ac16' data-external = '1'></iframe>
 
+<caption><i>Graph 8: Collocates for words representing the Upper Class in Thackery's work</i></caption>
 <iframe style='width: 1366px; height: 600px;' src='https://voyant-tools.org/tool/CorpusCollocates/?query=aristo*&query=lord*&query=lady*&query=butler*&corpus=2e74122b2c863d77f14372ea5904c5dd' data-external = '1'></iframe>
 
+<caption><i>Graph 9: Collocates for words representing the Lower Class in Dickens' work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/CorpusCollocates/?query=lodg*&query=shabby*&query=factory*&query=labour*&corpus=ea91f90d230617aaabfd4b4f1ce0443c' data-external = '1'></iframe>
 
+<caption><i>Collocates for words representing the Lower Class in Thackery's work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/CorpusCollocates/?query=lodg*&query=factory*&query=labour*&query=shabby*&corpus=2e74122b2c863d77f14372ea5904c5dd' data-external = '1'></iframe>
 
 
 <p>To depict the change in class structures and the approaches to the same, we compared common terms like lady, lord, butler and aristocrat to gain a fair representation of individuals belonging to the upper class and terms like labour, factory, lodge and shabby to describe the lower class. Dickens has a high ratio of references to the richer classes vis a vis references to the lower class, in an approximately 15:2 ratio. Thackeray, on the other hand, has an even higher ratio of references to the rich versus the poor, in an approximately 14:1 ratio. With an almost doubled difference in references to the rich, Dickens’ work clearly leans towards the lower class whereas Thackery’s work relies on the upper and middle class. The collocates also show us the authors’ approaches to classes. Dickens uses more positive terms in collocation with words like lodge, whereas Thackery used these terms in passing and in reference to places, but rarely as an eventful location itself. This does provide a positive understanding of our hypotheses. However, the correlations provide a different story. The correlations are extremely weak and not significant. Without the correlations, it might be easy to conclude that our hypothesis was correct. However, the numerical interpretation of correlations offers another story, one that conclusively proves our hypothesis as false.</p>
 
+<caption><i>Graph 10: Correlations for words representing the Upper Class in Dickens' work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/Correlations/?query=lady*&query=lord*&query=arist*&query=butler*&view=corpuscollocates&corpus=ea91f90d230617aaabfd4b4f1ce0443c' data-external = '1'></iframe>
 
+<caption><i>Graph 11: Correlations for words representing the Upper Class in Thackery's work</i></caption>
 <iframe style='width: 870px; height: 600px;' src='https://voyant-tools.org/tool/Correlations/?query=lodg*&query=labour*&query=factory*&query=shabby*&corpus=0b854417f0ea83b7e82d5dc9cbb333a7' data-external = '1'></iframe>
 
 </div>
